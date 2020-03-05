@@ -6,3 +6,174 @@
   /* Property example with a value */
 
 }
+
+/* font */
+
+.font {
+  /*
+    Font
+    "CSS font is an element of CSS that describes the style of a font,
+    such as family and size."
+  */
+  font: bold;
+}
+
+  .font-family {
+    /*
+    Font-family
+    "Font-family is used to specify a list of fonts, from highest priority to lowest."
+    */
+      font-family: ;
+  }
+
+  .font-size {
+    /*
+    Font-size
+    "This is used to set the size or length of the font."
+    */
+    font-size: larger;
+  }
+
+  .font-weight {
+    /*
+    Font-weight
+    "This specifies the weight of font that you are using."
+    */
+    font-weight: lighter;
+  }
+
+  .font-style {
+    /*
+    Font-style
+    "Font style is used to put the style of a font."
+    */
+    font-style: normal;
+  }
+
+  .line-height {
+    /*
+    line-height
+    "This specifies the height that is used for line."
+    */
+    line-height: normal;
+  }
+
+  .font-variant {
+    /*
+    Font-variant
+    "It is used to set the level of the font."
+    */
+    font-variant: small-caps;
+  }
+
+  .font-stretch {
+    /*
+    Font-stretch
+    ""
+    */
+    font-stretch: normal;
+  }
+
+  .font-size-adjust {
+    /*
+    font-size-adjust
+    "This is used to set the size of the font in order to be small size."
+    */
+    font-size-adjust: none;
+  }
+
+  .font-synthesis {
+    /*
+    font-synthesis
+    "Font-synthesis is used to bold or italic the text which makes the text legible."
+    */
+    font-synthesis: style;
+  }
+
+  .letter-spacing {
+    /*
+    letter-spacing:
+    "This is used to specify the space between characters."
+    */
+    letter-spacing: inherit;
+  }
+
+  .word-spacing {
+    /*
+    Word-spacing:
+    "Word-spacing defines the space between words."
+    */
+    word-spacing: unset;
+  }
+
+  .text-align {
+    /*
+    text-align:
+    "This is used to specify the place of a text where it should be."
+    */
+    text-align: end;
+  }
+
+  .text-decoration {
+    /*
+    text-decoration:
+    "This is used to put some decoration in a text."
+    */
+    text-decoration: yellow;
+  }
+
+  .text-decoration-line {
+    /*
+    text-decoration-line:
+    "Text-decoration-line identifies the decoration of a line. "
+    */
+    text-decoration-line: line-through;
+  }
+
+  .text-decoration-style {
+    /*
+    text-decoration-style:
+    "This is used to make styles of a text."
+    */
+    text-decoration-style: double;
+  }
+
+  .text-decoration-color {
+    /*
+    text-decoration-color:
+    "This decoration is used for colouring."
+    */
+    text-decoration-color: paleturquoise;
+  }
+
+  .text-indent {
+    /*
+    text-indent:
+    "Text-indent specifies the indentification of a text."
+    */
+    text-indent: 3cm;
+  }
+
+  .text-transform {
+    /*
+    text-transform:
+    "Text-transform is used to tranform the form of a text."
+    */
+    text-transform: lowercase;
+  }
+
+  .vertical-align {
+    /*
+    vertical-align:
+    "Vertical-align is used to set the position of the text in to vertical position."
+    */
+    vertical-align: 5mm;
+  }
+
+  .white-space {
+    /*
+    white-space:
+    "white-space specifies the whiten space in an element."
+    */
+    white-space: nowrap;
+  }
