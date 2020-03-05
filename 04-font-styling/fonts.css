@@ -8,10 +8,10 @@
   font-family: 'Courier New', Courier, monospace;
 }
 #section_fantasy  {
-  font-family: fantasy;
+  font-family: Papyrus, fantasy;
 }
 #section_cursive  {
-  font-family: cursive;
+  font-family: Arial, cursive;
 }
 .example h1 {
   font-size: 2.5rem;
