@@ -6,3 +6,88 @@
     /* Property example with a value */
 
   }
+
+.background  {
+  /*
+  Background is a property that is used to decorate the background of a text.
+  */
+  background: silver;
+}
+
+.background-color {
+  /*
+  Background-color is similar to background. It is to spefify the backgroud of a text.
+  */
+  background-color: bisque;
+}
+
+.background-image {
+  /*
+  Background-image is used to set one or more background images in an element. It draws images on the background.
+  */
+  background-image: -o-linear-gradient();
+}
+
+.background-repeat {
+   /*
+  Background-repeat:
+  background-image can be repeated, so background-repeat is used to set the repetation of the images.
+  */
+  background-repeat: round;
+}
+
+.background-position  {
+  /*
+  Background-position sets the position of each background images.
+  */
+  background-position: bottom 35%;
+}
+
+.background-attachment  {
+  /*
+  Background-attachment is used to specify whether a background position of the image is fixed or scrolls within the viewport.
+  */
+  background-attachment: scroll;
+}
+
+.background-clip  {
+  /*
+  Background-clip sets whether an element's background extends underneath its border box, padding box, or content box.
+  */
+  background-clip: border-box;
+}
+
+.background-origin  {
+  /*
+  Background-origin is used to specify the origin of the background: from the border start, inside the border, or inside the padding.
+  */
+  background-origin: content-box;
+}
+
+.background-size  {
+  /*
+  Background-size sets the size of element's background image.
+  */
+  background-size: 30%;
+}
+
+.box-shadow {
+  /*
+  Box-shadow is used to add the shadow on the background.
+  */
+  box-shadow: burlywood;
+}
+
+.color  {
+  /*
+  Color is used to set the decoration of letters, or specifies the colour of letters.
+  */
+  color: royalblue;
+}
+
+.color-adjust {
+  /*
+  Color-adjust
+  */
+  color-adjust: economy;
+}

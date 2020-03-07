@@ -1,0 +1,49 @@
+.dory img {
+  background-position: bottom right, left, right;
+}
+
+.dory {
+  background-color: rgb(15, 135, 135) ;
+  background-image:
+                    linear-gradient(to bottom, rgba(245, 250, 252, 0.52),
+                    rgba(19, 70, 117, 0.73));
+  background-image:
+                    url("../images/bubble.png"),
+                    url("../images/coral-reef.png"),
+                    url("../images/crab.png");
+  background-position: center, center bottom, left top;
+  background-repeat: repeat-y;
+  background-size: 500px, 1600px, 300px;
+}
+
+.henry .bird{
+  background-position: right;
+}
+
+.henry  {
+  background-color: rgb(15, 141, 153);
+  width: 46%;
+  height: 325px;
+  background-image:
+                    url("../images/grass-clump.png"),
+                    url("../images/grass-left.png"),
+                    url("../images/grass-tile.png"),
+                    url("../images//sun.png");
+  background-position: left bottom, center bottom, center bottom, right top;
+  background-repeat: no-repeat;
+  background-size: 500px, 1500px, 1400px, 150px;
+}
+
+.lu-seal .seal  {
+  background-position: center top;
+}
+.lu-seal  {
+  background-color: rgb(15, 153, 153);
+  background-image:
+                    url("../images/palm-2.png"),
+                    url("../images/palm.png"),
+                    url("../images/beach-ball.png");
+  background-position: left bottom, left bottom, right bottom, center bottom;
+  background-repeat: no-repeat;
+  background-size: 600px, 500px, 700px;
+}
