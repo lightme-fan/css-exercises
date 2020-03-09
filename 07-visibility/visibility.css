@@ -1,18 +1,32 @@
-* {
-/*
-  Property name
-  Property description
-*/
-  /* Property example with a value */
+#opacity {
+  /*
+  Opacity is the degree of an hidden element which is used to set the lack of transparency of an element.
+  */
+  opacity: 1;
 }
 
-/*
-  Questions
-  =======================
+#display {
+  /*
+  Display  specified using keyword values.
+  */
+  display: table-column ;
+}
 
-  - What is the difference between `opacity` and a `background-color` that is semi-transparent?
-  - What is the difference between `display: none;` and `visibility: hidden;`?
-  - Why would we use `visibility: visible;`?
+.display value {
+  display: inline,
+           block,
+           inline-block,
+           none;
+  /*
+  - inline: the element generates one or more inline element boxes .
+  - block: the element generates a block element box.
+  - none: this is used to turb of the display if an element.
+  */
+}
 
-*/
-
+#visibility {
+  /*
+  visibility is used to show or hide an element without changing the layout of a document.
+  */
+  visibility: visible ;
+}
