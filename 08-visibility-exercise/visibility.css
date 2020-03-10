@@ -1,0 +1,22 @@
+[href="#/"] {
+  visibility: hidden;
+}
+
+[href="#/about"] {
+  visibility: visible;
+}
+
+[href="#/contact"] {
+  visibility: collapse;
+}
+
+[data-bg-color="yellow"],
+[data-bg-color="blue"],
+tr:nth-child(2),
+span {
+  display: none;
+}
+
+span {
+  opacity: 0.5;
+}

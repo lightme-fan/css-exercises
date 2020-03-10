@@ -3,6 +3,9 @@ body {
   height: 320px;
 }
 
+div {
+
+}
 #cloud-1 {
   background-image: url(../images/cloud.svg);
   width: 50px;
