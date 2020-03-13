@@ -1,7 +1,21 @@
-* {
-  /*
-    Property name
-    Property description
-  */
-    /* Property example with a value */
-  }
+html,
+body {
+  width: 1000px;
+  height: 700px;
+  border: 6px solid black;
+  text-align: center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+}
+
+b {
+  color: blue;
+}

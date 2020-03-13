@@ -1,16 +1,11 @@
-[href="#/"] {
-  visibility: hidden;
-}
-
-[href="#/about"] {
+nav ul {
   visibility: visible;
 }
 
-[href="#/contact"] {
-  visibility: collapse;
+nav {
+  visibility: hidden;
 }
 
-[data-bg-color="yellow"],
 [data-bg-color="blue"],
 tr:nth-child(2),
 span {
