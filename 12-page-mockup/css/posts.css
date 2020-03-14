@@ -1,0 +1,29 @@
+.li-1 {
+  border-bottom: 0.5px solid lightblue;
+}
+
+li .a-1 {
+  font-size: 2rem;
+  white-space: pre-line;
+}
+
+li .a-2 {
+  font-size: 32.5px;
+  white-space: pre-line;
+}
+
+
+.problem {
+  margin-left: 51px;
+  font-size: 21px;
+}
+
+.post-1 {
+  margin-left: -89px;
+  margin-bottom: 2rem;
+}
+
+.post-2 {
+  margin-left: -7em;
+  margin-bottom: 2rem;
+}

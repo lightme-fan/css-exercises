@@ -1,0 +1,29 @@
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin-left: 1rem;
+  font-size: 1em;
+}
+
+.div {
+  text-align: right;
+  margin-right: 1em;
+  margin-top: -2em;
+  font-size: smaller;
+}
+
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: -17px;
+}
+
+.header {
+  font-size: 1rem;
+  text-align: center;
+}
