@@ -3,6 +3,7 @@ button {
   width: 120px;
   height: 25px;
   margin-left: 30rem;
+  border: 0;
 }
 
 button a {
@@ -13,3 +14,4 @@ button a {
 .button {
   margin-bottom: 1rem;
 }
+
