@@ -1,0 +1,8 @@
+main > header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg_desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-block-start: -10rem;
+  height: 272px;
+}

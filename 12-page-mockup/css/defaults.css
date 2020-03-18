@@ -1,9 +1,11 @@
+/*
 body {
   width: 700px;
   height: 900px;
   border: solid 1px lightblue;
-  margin: 2rem;
+  margin: 6rem;
   box-sizing: content-box;
+
 }
 
 header {
@@ -25,4 +27,14 @@ main {
 footer {
   margin-top: 3rem;
   margin-bottom: 1rem;
+}
+*/
+body > header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+main {
+  text-align: center;
+  text-decoration: none;
 }
