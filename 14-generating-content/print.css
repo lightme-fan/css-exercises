@@ -1,11 +1,15 @@
 /* Styles for all mediums go here */
 @media all {
-  h1::before {
-    content: attr(h1) "red";
-  }
+
 }
 
 /* Only styles for printers please */
 @media print {
+  a::after {
+    content: " [" attr(href) "]";
+  }
 
+  abbr::after {
+    content: " [" attr(title) "]";
+  }
 }
