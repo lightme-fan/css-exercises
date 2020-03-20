@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 15</title>
+    <style>
+      body {
+        text-indent: 1rem;
+        font-size: 110%;
+      }
+      main {
+        counter-reset: header;
+      }
+
+      main > h2::before {
+        counter-increment: header;
+        content: counter(header) ". ";
+      }
+
+      h2 {
+        counter-reset: subheader;
+      }
+
+      main > h3::before {
+        counter-increment: subheader;
+        content: counter(header) ".  " counter(subheader) ". ";
+      }
+
+      h1 {
+        color: rgb(32, 100, 178);
+      }
+
+      h2 {
+        color: blue;
+      }
+
+      li > i {
+        font-weight: bold;
+      }
+
+      h3,
+      li,
+      p {
+        text-indent: 2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Exercise 15</h1>
+    </header>
+    <main>
+      <h2 >Table styling</h2>
+      <div></div>
+      <h3>table-layout</h3>
+      <ul>
+        <li>auto</li>
+        <li>fixed</li>
+      </ul>
+      <h3>border-spacing</h3>
+      <p>This property corresponds:</p>
+      <ul>
+        <li><i>inherit</i></li>
+        <li><i>initial</i></li>
+        <li><i>unset</i></li>
+      </ul>
+
+      <h3>border-collapse</h3>
+      <ul>
+        <li>collapse</li>
+        <li>separete</li>
+      </ul>
+      <h3>caption-side</h3>
+      <ul>
+        <li>bottom</li>
+        <li>top</li>
+      </ul>
+      <h3>empty-cells</h3>
+      <ul>
+        <li>hide</li>
+        <li>show</li>
+        <li>-moz-show-background</li>
+      </ul>
+      <p>The default values of these properties above are:</p>
+      <ul>
+        <li>inherit</li>
+        <li>initial</li>
+        <li>unset</li>
+      </ul>
+
+      <h2>Simulating HTML tables</h2>
+      <p>The HTML elements do the displays values which Simulating HTML tables are: </p>
+      <ul>
+        <li>tr</li>
+        <li>th</li>
+        <li>td</li>
+        <li>div</li>
+      </ul>
+
+      <h2>Further research</h2>
+      <h3>Border-spacing</h3>
+      <p></p>
+
+      <h3></h3>
+      <p></p>
+
+      <h3>Table-layout: fixed</h3>
+      <p>
+        With this value, the layout of the table doesn't really care about the content, becuse the browser just uses the table's width.
+      </p>
+
+      <h3>Table-layout: auto</h3>
+      <p>
+        This value is default. The browser is automatically used to specify how the columns, rows and cells are put out.
+      </p>
+
+      <p>
+        Border-spacing can be used to make a space between line instead of using margin or padding.
+      </p>
+
+      <h3>Empty-cells</h3>
+      <p>
+        Before an empty-cells value is goint to be used, the elements in HTML must be correct and work properly. If you've got that made, the an empty-cells must work effectively.
+      </p>
+    </main>
+  </body>
+
+</html>
