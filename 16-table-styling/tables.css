@@ -21,9 +21,10 @@ section h2 {
 section p {
   display: table-cell;
   table-layout: fixed;
-  padding-inline-start: 1rem;
+  padding-inline-start: 0rem;
   padding-block-end: 2rem;
-  font-size: larger;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 footer {
