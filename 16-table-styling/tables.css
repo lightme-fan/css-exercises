@@ -1,47 +1,32 @@
-body {
-  width: 600px;
-  border: 1px solid;
-  margin: 2rem;
-}
 
 main {
   padding-inline-start: 1rem;
+  max-width: 600px;
+  border: 1px solid;
+  margin: 2rem;
+  display: block;
 }
 
 header {
   font-size: 1.5rem;
 }
 
-section > h2 {
+section h2 {
   display: table-cell;
   vertical-align: middle;
   table-layout: fixed;
-  padding-left: 3rem;
-  font-size: 2rem;
+  width: 200px;
 }
 
-section > p {
+section p {
   display: table-cell;
-  vertical-align: middle;
   table-layout: fixed;
-  padding-top: 2rem;
-  padding-left: 1rem;
-  font-size: 1rem;
-  line-height: 100%;
+  padding-inline-start: 1rem;
+  padding-block-end: 2rem;
+  font-size: larger;
 }
 
 footer {
   font-size: larger;
 }
 
-section > p:first {
-  padding-left: 2rem;
-}
-
-section > p:nth-child(2) {
-  padding-left: 2rem;
-}
-
-p:last-child {
-  padding-left: 0.3rem;
-}
