@@ -1,5 +1,6 @@
 
 main {
+  border-collapse: separate;
   padding-inline-start: 1rem;
   max-width: 600px;
   border: 1px solid;
@@ -12,6 +13,7 @@ header {
 }
 
 section h2 {
+  border-collapse: separate;
   display: table-cell;
   vertical-align: middle;
   table-layout: fixed;
@@ -19,6 +21,7 @@ section h2 {
 }
 
 section p {
+  border-collapse: separate;
   display: table-cell;
   table-layout: fixed;
   padding-inline-start: 0rem;
@@ -28,6 +31,6 @@ section p {
 }
 
 footer {
+  border-collapse: separate;
   font-size: larger;
 }
-
