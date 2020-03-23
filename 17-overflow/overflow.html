@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+      h1 {
+        counter-reset: h2;
+      }
+      h2::before {
+        counter-increment: h2;
+        content: counter(h2) ". ";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Overflow</h1>
+    <h2 >Each of these properties below have their own default value.</h2>
+    <nav>
+      <ul>
+        <li>Overflow:</li>
+          <ul>
+            <li>visible</li>
+            <li>hidden</li>
+            <li>scroll</li>
+            <li>auto</li>
+          </ul>
+        <li>Clip: auto</li>
+        <li>Clip-path: none</li>
+        <li>Text-overflow: clip</li>
+      </ul>
+    </nav>
+
+    <h2>The need of these properties above.</h2>
+    <p>
+      When the content is over the edge of the box, these properties are useful to limit the <i>line</i> in order to fit them inside of the box.
+    </p>
+
+    <h2>
+      These are the properties need to be uesd before the properties above.
+    </h2>
+    <ul>
+      <li>Display</li>
+      <li>Max and min-width</li>
+      <li>Word-wrap</li>
+    </ul>
+
+    <h2>The browser's default value about overflow:</h2>
+    <p></p>
+
+    <h2>Ellipsis</h2>
+    <p>
+      Ellipsis is the display inside of the content. This decreases the amount of text displayed. If there is not enough space to display the ellipsis, it is clipped.
+    </p>
+
+    <h2>Text-overflow</h2>
+    <p>
+      Text-overflow property has difference from other properties because it sets the display of the content in order to be hidden, or clipped or ellipsis.
+    </p>
+  </body>
+</html>
