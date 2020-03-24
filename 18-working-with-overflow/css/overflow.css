@@ -11,17 +11,19 @@
 }
 
 #clipping_circle  .example {
-  clip-path: circle(30% at 30% 30%);
+  clip-path: circle(40% at 30% 30%);
 }
 
 #clipping_poly .example {
   overflow: visible;
-  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 40% 50%);
+  clip-path: polygon(85% 32%, 25% 32%, 93% 90%);
 }
+
+
 
 #overclip .example {
   overflow: visible;
-  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  clip-path: circle(40% at 50% 50%);
 }
 
 #overflow_ellipsis .example {
