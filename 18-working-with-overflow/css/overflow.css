@@ -1,15 +1,31 @@
-#overflow_invisible > div p {
-  overflow: hidden;
-}
-
-#overflow_invisible > div .example {
+#overflow_invisible .example {
   overflow: hidden;
 }
 
 #overflow_scroll .example {
   overflow: scroll;
-  display: flow-root;
 }
 
-#overflow_scroll .example_large  {
+#overflow_scroll .example_large {
   overflow: scroll;
+}
+
+#clipping_circle  .example {
+  clip-path: circle(30% at 30% 30%);
+}
+
+#clipping_poly .example {
+  overflow: visible;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 40% 50%);
+}
+
+#overclip .example {
+  overflow: visible;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#overflow_ellipsis .example {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
