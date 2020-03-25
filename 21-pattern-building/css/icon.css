@@ -1,0 +1,31 @@
+.example > a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+}
+
+.icon_left::before {
+  background-image: url(../../12-page-mockup/images/icon-facebook.png);
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-inline-end: 8px;
+}
+
+.icon_right::after {
+  background-image: url(../../12-page-mockup/images/icon-facebook.png);
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-inline-start: 8px;
+}
