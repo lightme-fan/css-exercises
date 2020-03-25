@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+  height: auto;
+  cursor: zoom-in;
+}
+
+table {
+  table-layout: fixed;
+  min-width: 420px;
+
+}
+.table_container {
+  overflow: auto;
+}
+
+th,
+td {
+  border: 1px solid;
+  min-width: 50px;
+  cursor: pointer;
+}
+
+svg {
+  max-width: 100vw;
+  max-height: 100vh;
+  fill: green;
+  cursor: zoom-in;
+}
+
