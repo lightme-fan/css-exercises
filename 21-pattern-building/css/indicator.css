@@ -1,0 +1,43 @@
+.progress_indicator {
+  list-style: none;
+  counter-reset: step;
+  display: flex;
+  margin: 0;
+}
+
+.progress_indicator li {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.progress_indicator li::before {
+  width: 3rem;
+  height: 3rem;
+  content: counter(step);
+  counter-increment: step;
+  align-self: center;
+  background-color: blue;
+  color: white;
+  border-radius: 100%;
+  line-height: 3rem;
+  margin-block-end: 0.5rem;
+}
+
+.progress_indicator li::after {
+  height: 0.2rem;
+  width: 17rem;
+  content: '';
+  background-color: lightblue;
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  margin-inline-start: 8.7rem;
+}
+
+.progress_indicator li:last-child::after {
+  content: '';
+  display: none;
+}
