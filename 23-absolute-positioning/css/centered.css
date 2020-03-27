@@ -1,0 +1,34 @@
+section:nth-of-type(3) .container {
+  height: 200px;
+}
+
+section:nth-of-type(3) div .container .rect {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: -154px;
+  left: 3rem;
+}
+
+section:nth-of-type(3) div .container .pipe {
+  position: relative;
+  width: 168px;
+  height: 96px;
+  top: -16rem;
+  left: 1rem;
+}
+
+section:nth-of-type(3) div .container .bar {
+  position: relative;
+  width: 165px;
+  height: 96px;
+  top: -22rem;
+  left: 1rem;
+}
+
+section:nth-of-type(2) div .container .circle:nth-of-type(4) {
+  position: relative;
+  top: -514px;
+  left: 92px;
+}
+

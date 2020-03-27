@@ -1,1 +1,9 @@
 @import "setup.css";
+
+@import "section-1.css";
+
+@import "section-2.css";
+
+@import "centered.css";
+
+@import "stacking.css";
