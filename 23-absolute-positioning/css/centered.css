@@ -1,34 +1,28 @@
 section:nth-of-type(3) .container {
   height: 200px;
+  position: relative;
 }
 
 section:nth-of-type(3) div .container svg {
-  position: relative;
+  position: absolute;
 }
 
 section:nth-of-type(3) div .container .rect {
   width: 100px;
   height: 100px;
-  top: -154px;
-  left: 3rem;
+  bottom: 25%;
+  right: 25%;
 }
 
 section:nth-of-type(3) div .container .pipe {
-  width: 168px;
-  height: 96px;
-  top: -16rem;
-  left: 1rem;
+  width: 100px;
+  bottom: 25%;
+  right: 25%;
 }
 
 section:nth-of-type(3) div .container .bar {
-  width: 165px;
-  height: 96px;
-  top: -22rem;
-  left: 1rem;
-}
-
-section:nth-of-type(2) div .container .circle:nth-of-type(4) {
-  top: -514px;
-  left: 92px;
+  width: 100px;
+  bottom: 25%;
+  right: 25%;
 }
 
