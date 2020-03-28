@@ -1,33 +1,8 @@
-/*
 .li {
-  text-align: end;
-  margin-block-start: -2rem;
-  margin-block-end: 0;
-  margin-inline-start: 0rem;
-  margin-inline-end: 2rem;
-  list-style-type: none;
+  position: relative;
+  top: -3.5rem;
+  left: 11rem;
 }
-
-.li a {
-  color: white;
-}
-
-ul {
-  list-style-type: none;
-}
-
-nav a {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-nav {
-  margin-inline-start: 2rem;
-  margin-inline-end: 8rem;
-}
-*/
-
 .li li {
   list-style: none;
   display: inline;
@@ -41,6 +16,7 @@ p {
 .li li a {
   text-decoration: none;
   color: white;
+  font-size: 13px;
 }
 .li ul {
   margin-inline-end: 1rem;
@@ -49,26 +25,33 @@ p {
   text-align: center;
 }
 
-.li ul li:not(:first-child):not(:last-child) {
+.li ul li:nth-of-type(2) {
   margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
 }
+
+.li ul li:nth-of-type(3) {
+  margin-inline-start: 1rem;
+}
+
+.li ul li:nth-of-type(4) {
+  margin-inline-start: 1rem;
+}
+
 
 #li ul a {
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: bold;
 }
 
 #li ul {
   list-style: none;
-  margin-block-start: ;
   padding: 4rem;
 }
 
-#li ul post {
-  font-size: 2rem;
+#li ul .post {
+  font-size: 1rem;
 }
 
 #li ul .li-1 {
