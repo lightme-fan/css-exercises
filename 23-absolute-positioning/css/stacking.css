@@ -3,32 +3,26 @@ section:nth-of-type(4) .container {
   position: relative;
 }
 
-section:nth-of-type(4) div .container .rect {
+section:nth-of-type(4) div .container svg {
   position: absolute;
   width: 200px;
   height: 200px;
+}
+
+section:nth-of-type(4) div .container .rect {
   z-index: 1;
 }
 
 section:nth-of-type(4) div .container .circle {
-  position: absolute;
-  width: 200px;
-  height: 200px;
   z-index: 2;
 }
 
 
 section:nth-of-type(4) div .container .pipe {
-  position: absolute;
-  width: 200px;
-  height: 200px;
   z-index: 4;
 }
 
 section:nth-of-type(4) div .container .bar {
-  position: absolute;
-  width: 200px;
-  height: 200px;
   z-index: 3;
 }
 
