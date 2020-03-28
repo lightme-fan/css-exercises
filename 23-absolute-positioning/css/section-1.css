@@ -1,45 +1,38 @@
 section:first-of-type .container{
   height: 206px;
+  position: relative;
 }
 
 section:first-of-type .container svg {
-  position: relative;
+  position: absolute;
   overflow: auto;
-  z-index: auto;
 }
 
 section:first-of-type .container .circle {
   width: 50px;
   height: 50px;
   top: 156px;
-  right: 0;
-  bottom: 0;
   left: 150px;
+  z-index: 4;
 }
 
 section:first-of-type .container .rect {
   width: 50px;
   height: 50px;
-  top: 50;
-  right: 0;
-  bottom: 0;
-  left: -54px;
+  z-index: 1;
 }
 
 section:first-of-type .container .pipe {
   width: 50px;
   height: 50px;
   top: 156px;
-  right: 0;
-  bottom: 0;
-  left: -110px;
+  z-index: 3;
 }
 
 section:first-of-type .container .bar {
   width: 50px;
   height: 50px;
-  top: -50px;
-  right: 0;
-  bottom: 0;
+  top: 3px;
   left: 150px;
+  z-index: 2;
 }
