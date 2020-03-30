@@ -8,13 +8,13 @@
 }
 
 .breadcrumb li::before {
- content: '';
- border-inline-start: .5rem solid darkgray;
- border-inline-end: .5rem solid transparent;
- border-block-end: .5rem solid transparent;
- border-block-start: .5rem solid transparent;
- position: absolute;
- cursor: pointer;
+  content: '';
+  border-inline-start: .5rem solid darkgray;
+  border-inline-end: .5rem solid transparent;
+  border-block-end: .5rem solid transparent;
+  border-block-start: .5rem solid transparent;
+  position: absolute;
+  cursor: pointer;
 }
 
 .breadcrumb li:first-child::before {

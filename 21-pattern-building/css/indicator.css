@@ -1,43 +1,82 @@
-.progress_indicator {
-  list-style: none;
-  counter-reset: step;
-  display: flex;
-  margin: 0;
+.a11y {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
 
 .progress_indicator li {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  text-align: center;
+  counter-increment: step_number;
+}
+
+.progress_indicator {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   position: relative;
 }
 
-.progress_indicator li::before {
-  width: 3rem;
-  height: 3rem;
-  content: counter(step);
-  counter-increment: step;
-  align-self: center;
-  background-color: blue;
-  color: white;
-  border-radius: 100%;
-  line-height: 3rem;
-  margin-block-end: 0.5rem;
+.progress_indicator li > * {
+  display: block;
+  padding: 1rem;
+  color: black;
+  padding-inline-start: 3rem;
+  position: relative;
 }
 
-.progress_indicator li::after {
-  height: 0.2rem;
-  width: 17rem;
-  content: '';
-  background-color: lightblue;
-  position: absolute;
-  top: 1.5rem;
-  left: 2rem;
-  margin-inline-start: 8.7rem;
+.progress_indicator li > *::before {
+ content: counter(step_number);
+ position: absolute;
+ left: 1rem;
+ top: 50%;
+ width: 1.5rem;
+ height: 1.5rem;
+ text-align: center;
+ margin-top: -0.5rem;
+ line-height: 1.5;
+ font-size: 1rem;
+ border-radius: 50%;
 }
 
-.progress_indicator li:last-child::after {
-  content: '';
-  display: none;
+/*back links*/
+.progress_indicator a {
+ text-decoration: none;
 }
+
+.progress_indicator a::before {
+  background-color: green;
+  color: white
+ }
+
+/*Current step*/
+.progress_indicator b {;
+}
+
+.progress_indicator b::before {
+  background-color: gold;
+ }
+
+/* Future step*/
+.progress_indicator span {
+ opacity: 0.75;
+}
+
+.progress_indicator span::before {
+  background-color: red;
+  color: white
+ }
+
+.progress_indicator::after {
+   content: '';
+   width: 0.25rem;
+   position: absolute;
+   top: 1rem;
+   left: 1.75rem;
+   bottom: 1rem;
+   background-color: #ccc;
+   margin-inline-start: -0.125rem;
+   z-index: -1;
+
+ }
