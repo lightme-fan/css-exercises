@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floats</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+      h2 {
+        color: lightblue;
+      }
+
+      h3 {
+        color: lightseagreen;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Floats and block formatting contexts
+      </h1>
+    </header>
+    <div>
+      <h2>Floats</h2>
+    </div>
+    <section>
+      <h3>The default values of <i>float</i> and <i>clear</i></h3>
+      <ul>
+        <li>float: <b>none;</b></li>
+        <li>clear: <b>none;</b></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>The possible values for clear</h3>
+      <ul>
+        <li>left</li>
+        <li>right</li>
+        <li>both</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>
+        The rule associated with a floated item in terms of source order
+      </h3>
+      <p>
+        When an element is floated, it is shifted to the left or right until it reach the edge of the content box, and then it will take place in a new line.
+      </p>
+    </section>
+
+    <section>
+      <h3>Layout with floats</h3>
+      <p>
+        It is possible to float other elements besides images for example paragaph.
+      </p>
+      <p>
+        In order to create a two-column layout with float, you can use both floated right and left with clear both.
+      </p>
+    </section>
+
+    <div>
+      <h2>
+        BFC
+      </h2>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          BFC: Block formatting context<br>
+          This is a combination of floats, absolute positioned, and display blcok.
+        </li>
+        <li>
+          The properties which are used to create a BFC on the parent element are:<br>
+          <ul>
+            <li>display: inline-block;</li>
+            <li>position: absolute;</li>
+            <li>overflow</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div>I will try to remember all these informations.</div>
+  </body>
+</html>
