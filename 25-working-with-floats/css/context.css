@@ -1,0 +1,29 @@
+.example:first-of-type div img {
+  float: left;
+}
+
+.example:first-of-type div .doctor_claw {
+  float: right;
+  display: block;
+}
+
+.example:first-of-type div p {
+  font-size: 9px;
+  font-weight: bold;
+  padding-inline-end: 0;
+  padding-inline-start: 10px;
+  padding-block-end: 88px;
+}
+
+.example:first-of-type div p:nth-of-type(2) {
+  padding: 0;
+}
+
+.example:first-of-type div p:last-of-type {
+  margin: 0;
+  padding: 0;
+}
+
+.example:first-of-type img {
+  width: 140px;
+}
