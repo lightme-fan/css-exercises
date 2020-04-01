@@ -1,0 +1,34 @@
+section:last-of-type .form_row {
+  clear: both;
+}
+
+section:last-of-type form h3 {
+  margin: 0;
+}
+
+section:last-of-type form header {
+  float: left;
+  margin-block-end: 40px;
+  line-height: 36px;
+  padding: 0;
+}
+
+section:last-of-type form .form_toolbar {
+  float: right;
+}
+
+section:last-of-type form .form_row label {
+  float: left;
+  width: 9rem;
+  line-height: 2;
+  text-align: right;
+  margin-inline-end: 1rem;
+}
+
+section:last-of-type form .form_row .field {
+  margin-block-end: 1rem;
+}
+
+section:last-of-type form .form_actions {
+  margin-inline-start: 10rem;
+}

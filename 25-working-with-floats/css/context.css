@@ -1,3 +1,6 @@
+section:first-of-type .example {
+  width: 360px;
+}
 section:first-of-type div .container {
  width: 360px;
  height: 314px;
