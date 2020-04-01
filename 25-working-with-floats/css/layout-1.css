@@ -1,0 +1,17 @@
+section:nth-of-type(3) div .container div {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+section:nth-of-type(3) div .container .article .navigation {
+  float: left;
+}
+
+section:nth-of-type(3) div .container .article .sidebar {
+  float: right;
+}
+
+section:nth-of-type(3) div .container .article .navigation,
+section:nth-of-type(3) div .container .article .sidebar {
+  padding: 13px;
+}

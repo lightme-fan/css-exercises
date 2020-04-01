@@ -1,29 +1,38 @@
-.example:first-of-type div img {
+section:first-of-type div .container {
+ width: 360px;
+ height: 314px;
+}
+
+section:first-of-type div .container {
+  padding-inline-end: 0rem;
+ }
+
+
+section:first-of-type div img {
   float: left;
 }
 
-.example:first-of-type div .doctor_claw {
+section:first-of-type div .doctor_claw {
   float: right;
-  display: block;
+  clear: right;
+  padding-inline-start: 10px;
+  padding-block-end: 10px;
 }
 
-.example:first-of-type div p {
+section:first-of-type div p {
   font-size: 9px;
   font-weight: bold;
-  padding-inline-end: 0;
-  padding-inline-start: 10px;
-  padding-block-end: 88px;
 }
 
-.example:first-of-type div p:nth-of-type(2) {
-  padding: 0;
+section:first-of-type div p:nth-of-type(2) {
+  padding-block-start: 84px;
 }
 
-.example:first-of-type div p:last-of-type {
+section:first-of-type div p:last-of-type {
   margin: 0;
-  padding: 0;
+  padding-block-end: 84px;
 }
 
-.example:first-of-type img {
-  width: 140px;
+section:first-of-type div img {
+  width: 126px;
 }

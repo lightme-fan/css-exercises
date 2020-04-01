@@ -1,0 +1,24 @@
+section:nth-of-type(2){
+  width: 400px;
+}
+
+section:nth-of-type(2) div img {
+  width: 126px;
+}
+
+section:nth-of-type(2) div p {
+  font-size: 9px;
+  font-weight: bold;
+  overflow: auto;
+  padding-left: 10px;
+}
+
+
+section:nth-of-type(2) div .container img {
+  float: left;
+  clear: both;
+}
+
+section:nth-of-type(2) div .container p:nth-last-of-type(2) {
+  padding-block-start: 84px;
+}
