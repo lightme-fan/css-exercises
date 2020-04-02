@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Flexbox</h1>
+    </header>
+    <section>
+      <h2>
+        The order of <i>flex values</i>
+      </h2>
+      <div>
+        <b>flex</b>: 1 2 auto;
+      </div>
+      <ul>
+        <li>2 is flex-grow.</li>
+        <li>1 is flex-shrink.</li>
+        <li>auto is flex-basis.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>
+        flex-flow and flex-wrap
+      </h2>
+      <div>
+        Before we can use align-content, we have to use:
+        <ul>
+          <li>flex-wrap: wrap;</li>
+          <li>flex-flow: rwo or column wrap</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Align-content and align-items
+      </h2>
+      <div>
+        <p>
+          <q>Align-content</q> is used to specify the space between or around contents.
+        </p>
+        <p>
+          <q>align-items</q> is used to set the align-self of the children on the cross Axis.
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2>
+        Align-items or align-self
+      </h2>
+      <div>
+        <i>Justify-content</i> overrides the container of the align-items or align-self.
+      </div>
+    </section>
+
+    <section>
+      <h2>Flex-basis</h2>
+      <div>
+        There is another commonly-used box model which is to flex-basis, it is <strong>box-sizing</strong>.
+      </div>
+    </section>
+
+    <section>
+      <h2>Order</h2>
+      <div>
+        Apart from <b>order</b> proprty to arrange the items, <b>flex-direction</b> can be used as same as <b>order</b>.
+      </div>
+    </section>
+
+    <section>
+      <h2>Spacing items</h2>
+      <div>
+        There are possibe ways to space between flex items by using these prperties:
+        <ul>
+          <li>row-gap</li>
+          <li>column-gap</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
