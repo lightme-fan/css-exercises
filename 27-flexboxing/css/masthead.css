@@ -12,13 +12,17 @@ main > header {
   padding: 4rem 0;
   box-sizing: border-box;
   min-height: 50vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main > header > h2 {
   font-size: 4rem;
   margin: 0;
+  align-self: center;
 }
 
 main > header > p {
   margin: 0;
+  align-self: center;
 }
