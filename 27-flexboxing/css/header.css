@@ -1,10 +1,15 @@
 body > header {
   color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 body > header h1 {
-  margin: 0;
-  font-size: 2rem;
+  margin-inline-start: 1rem;
+  padding: 0;
+  font-size: 20px;
 }
 
 body > header a {

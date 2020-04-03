@@ -12,8 +12,10 @@ main > header {
   padding: 4rem 0;
   box-sizing: border-box;
   min-height: 50vh;
+  margin-block-start: -8rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 main > header > h2 {

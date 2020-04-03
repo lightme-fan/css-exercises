@@ -1,15 +1,24 @@
 header > nav {
-
+  line-height: 3.5;
+  margin-inline-end: 1rem;
 }
 
 header > nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-basis: 1rem;
 }
 
 header > nav a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1rem;
+}
+
+header > nav li {
+  margin-inline-start: 1rem;
 }
