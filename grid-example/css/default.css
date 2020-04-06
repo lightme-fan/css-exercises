@@ -1,0 +1,38 @@
+html {
+  text-align: center;
+  width: 600px;
+  height: 900px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr 50px;
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+  grid-template-areas:
+      "header header header"
+      "nav nav image"
+      "paragraph paragraph image"
+      "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.image {
+  grid-area: image;
+}
+
+.paragraph {
+  grid-area: paragraph;
+}
+
+.footer {
+  grid-area: footer;
+}

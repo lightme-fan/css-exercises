@@ -1,0 +1,9 @@
+.image {
+  background-color: rgba(12, 12,121, .6);
+  text-align: center;
+}
+
+.image img {
+  width: 100px;
+  height: 200px;
+}

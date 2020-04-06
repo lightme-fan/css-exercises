@@ -1,0 +1,9 @@
+footer {
+  background-color: skyblue;
+}
+
+footer div {
+ text-transform: uppercase;
+ font-size: larger;
+ text-align: center;
+}
