@@ -2,7 +2,7 @@ body {
   text-align: center;
   display: grid;
   width: 70%;
-  height: 600px;
+  height: 620px;
   grid-template-columns: 200px 1fr 1fr 1fr;
   grid-template-rows: 80px 1fr 1fr;
   grid-gap: 0.5rem;
