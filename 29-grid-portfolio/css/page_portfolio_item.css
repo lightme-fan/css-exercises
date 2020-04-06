@@ -1,0 +1,9 @@
+body header {
+  display: grid;
+  flex-direction: column;
+}
+
+body header nav {
+  display: grid;
+  flex-direction: row;
+}
