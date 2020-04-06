@@ -21,45 +21,30 @@ body section {
 body .header {
   background-color: blue;
   color: white;
+  grid-area: header;
 }
 
 .section-1 {
   background-color: aquamarine;
+  grid-area: section-1;
 }
 .section-2 {
   background-color: black;
   color: beige;
+  grid-area: section-2;
 }
 
 .section-3 {
   background-color: darkgrey;
+  grid-area: section-3;
 }
 
 .section-4 {
   background-color: firebrick;
   color: white;
+  grid-area: section-4;
 }
 
 .section-1 li {
   list-style-type: none;
-}
-
-.header {
-  grid-area: header;
-}
-
-.section-1 {
-  grid-area: section-1;
-}
-
-.section-2 {
-  grid-area: section-2;
-}
-
-.section-3 {
-  grid-area: section-3;
-}
-
-.section-4 {
-  grid-area: section-4;
 }
