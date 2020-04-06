@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Grid</title>
+    <link rel="stylesheet" href="28-grid.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>CSS grid</h1>
+    </header>
+    <section class="section-1">
+      <h2>
+        Grid columns by default
+      </h2>
+      <div>
+        By default, a grid has two columns which are:
+        <ul>
+          <li>grid-column-start</li>
+          <li>grid-column-end</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <h2>
+        Flexbox and Grid
+      </h2>
+      <p>
+        <b>Flexbox</b> is only used to specify one dimension, either <i>row</i> or <i>column</i>, whereas <b>Grid</b> can be used for two dimensional layout. We can make the use of <i>row</i> and <i>column</i> at the same time.
+      </p>
+      <div>
+        Using css <i>flexbox</i> could be better than <i>grid</i> because flexbox is good to lay out elements in either single column or single row.
+      </div>
+      <div>
+        I would use <strong>grid</strong> than flexbox, as it is best to set out elements in either multiple rows or multiple columns.
+      </div>
+    </section>
+
+    <section class="section-3">
+      <h2>A concise way to write out this:</h2>
+      <div>
+        <i>grid-template-columns:10rem 10rem 10rem 10rem</i>;
+        <div>
+          grid-template-columns: repeat(4, 10rem);
+        </div>
+      </div>
+    </section>
+
+    <section class="section-4">
+      <h2>
+        Height for a grid row
+      </h2>
+      <div>
+        If we want to set a minimum height for a row grid, we can use this <i>grid-template-rows: min-height...</i>.
+      </div>
+    </section>
+  </body>
+</html>
