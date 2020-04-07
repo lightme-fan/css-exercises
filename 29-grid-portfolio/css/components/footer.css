@@ -36,7 +36,8 @@ body > footer p:last-child a::before {
   filter: grayscale(1);
 }
 
-body footer {
-  display: grid;
-  grid-template-columns: repeat(2, 480px);
+body > footer {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
 }

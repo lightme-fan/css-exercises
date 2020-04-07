@@ -1,3 +1,10 @@
+body > header {
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  column-gap: 15px;
+  row-gap: 30px;
+  align-items: end;
+}
 
 body > header h1 {
   border-block-end: 1px solid #4d4d4d;
@@ -22,19 +29,19 @@ body > header nav {
 
 body > header h1 {
   font-size: 1.25rem;
+  margin: 0;
 }
 
 body > header ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 145px);
+  column-gap: 15px;
+  row-gap: 30px;
 }
 
 body > header li {
   border-block-end: 1px solid #4d4d4d;
-}
-
-header {
-  display: grid;
-  grid-column: 1 span 6;
 }
