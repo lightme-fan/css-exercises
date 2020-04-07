@@ -32,8 +32,21 @@ main > header {
   border: 0;
 }
 
+header,
+main nav {
+  display: grid;
+  grid-template-columns: 10rem 1fr 1fr 1fr 1fr 1fr;
+}
+
 main ul {
   display: grid;
-  grid-template-columns: repeat(6, 160px);
-  row-gap: 30px;
+  grid-template-columns: 10rem 1fr 1fr 1fr 1fr;
+}
+
+header {
+  grid-column: 1;
+}
+
+main nav ul {
+  grid-column: 2 span 6;
 }
