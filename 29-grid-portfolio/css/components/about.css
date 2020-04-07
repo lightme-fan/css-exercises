@@ -1,19 +1,12 @@
 .about {
   display: grid;
   grid-template-columns: repeat(6, 145px);
+  grid-template-rows: auto;
   column-gap: 15px;
-  grid-template-areas:
-                  a b b c c c;
-}
-
-.about > .about_header {
-  grid-area: a;
+  margin-block-end: 3.5rem;
 }
 
 .about > img {
-  grid-area: d;
+  grid-area: 2/2/1/4;
 }
 
-.about > .about_description {
-  grid-area: c;
-}
