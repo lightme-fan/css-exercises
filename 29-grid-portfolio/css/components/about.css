@@ -1,3 +1,19 @@
 .about {
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  column-gap: 15px;
+  grid-template-areas:
+                  a b b c c c;
+}
 
+.about > .about_header {
+  grid-area: a;
+}
+
+.about > img {
+  grid-area: d;
+}
+
+.about > .about_description {
+  grid-area: c;
 }
