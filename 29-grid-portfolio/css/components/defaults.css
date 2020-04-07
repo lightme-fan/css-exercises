@@ -33,33 +33,3 @@ img {
   padding: 0;
   border: 0;
 }
-
-<<<<<<< HEAD
-header,
-main nav {
-  display: grid;
-  grid-template-columns: 10rem 1fr 1fr 1fr 1fr 1fr;
-}
-
-main ul {
-  display: grid;
-  grid-template-columns: 10rem 1fr 1fr 1fr 1fr;
-}
-
-header {
-  grid-column: 1;
-}
-
-main nav ul {
-  grid-column: 2 span 6;
-=======
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
-abbr {
-  text-decoration: none;
->>>>>>> e9ceb264b274d966d09a96124bd276030b4a437a
-}
