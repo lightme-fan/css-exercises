@@ -2,6 +2,8 @@
 
 }
 
-.image_half {
 
+.image_half {
+  width: calc((3 * 145px) + (2 * 15px));
+  margin-block-end: 30px;
 }
