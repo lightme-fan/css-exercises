@@ -1,5 +1,7 @@
 .works_item {
-
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  column-gap: 15px;
 }
 
 .works_item_header {
@@ -7,17 +9,26 @@
 }
 
 .works_item_content {
-
+  display: grid;
+  grid-template-columns: repeat(5, 145px);
+  column-gap: 15px;
 }
 
 .works_item_image_container {
+  grid-area: 1/1/2/7;
+}
 
+.works_item_navigation {
+  margin-inline-start: -1rem;
 }
 
 .works_item_navigation ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 20px);
+  column-gap: 15px;
 }
 
 .works_item_navigation a {
