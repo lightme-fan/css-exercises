@@ -10,3 +10,6 @@
   grid-area: 2/2/1/4;
 }
 
+.about > .about_description {
+  grid-area: 1/4/1/7;
+}
