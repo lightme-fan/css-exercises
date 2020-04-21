@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Custom properties</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Custom properties
+      </h1>
+    </header>
+    <main>
+      <nav>
+        <ol>
+          <li>
+            When we set a <i>Custom Property's name</i>, we must use double dashes <b>--</b>.
+          </li>
+          <li>
+            In a Custom Property, <b></b> is not used.
+          </li>
+          <li>
+            The values wich can possibly be used depend on the main idea in a document.<br>
+            <u>Eg</u>:<br> <i>--number-of-people: 10;</i>
+          </li>
+          <li>
+            <ul>
+              <li>
+                Using <b>:root</b> or <b>html</b> of Custom properties is invaluable, when our decoration is applied in whole HTML document.
+              </li>
+              <li>
+                However <i>:root</i> is not always used if you want to limit the scope of your Custom properties.
+              </li>
+            </ul>
+          </li>
+          <li>
+            After we set a new Custom Property, in order to recall it, we can use <b>var(...)</b> function.
+          </li>
+          <li>
+            Some names of changing a Custom Property:
+            <ul>
+              <li>--column</li>
+              <li>--color</li>
+              <li>--background</li>
+            </ul>
+          </li>
+          <li>
+            Custom Properties are useful because it makes the css readable. They allow the values to be stored in one place, and then referenced in multiple places.<br>
+            <u>Eg:</u><br>
+            <i>
+              :root {
+              --color: red;
+              }<br>
+              div {
+                background-color: var(--color);
+              }
+            </i>
+          </li>
+          <li>
+            The only aspect of css syntax that we can use for Custom Properties:<br>
+            <i>
+              element {<br>
+                --name-of-property: value;<br>
+              }
+            </i>
+          </li>
+        </ol>
+      </nav>
+    </main>
+  </body>
+</html>
