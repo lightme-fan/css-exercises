@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <style>
+      :root {
+        --column: 2;
+        --cell-color: red;
+        --base-unit: calc(var(--column) / 2 * 1rem);
+      }
+      ul {
+        display: grid;
+        grid-template-columns: repeat(var(--column), 1fr);
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        gap: var(--base-unit);
+        font-size: var(--base-unit);
+        line-height: 1;
+      }
+      li {
+        background-color: var(--cell-color);
+      }
+      @media (min-width: 640px) {
+        :root {
+          --column: 4;
+        }
+      }
+      @media (min-width: 1024px) {
+        :root {
+          --column: 6;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+      <li>Cell</li>
+    </ul>
+  </body>
+</html>
