@@ -1,10 +1,17 @@
 :root {
   --base-hue: 36deg;
   --base-alpha: 0.1;
+  --base-saturation: 100%;
+  --base-lightness: 50%;
 }
 
 #c_and_i .table a {
-  background-color: hsla(calc(var(--hue-multiplier) * var(--base-hue)), 100%, 50%, calc(var(--alpha-multiplier) * var(--base-alpha)));
+  background-color: hsla(
+    calc(var(--hue-multiplier) * var(--base-hue)),
+    var(--base-saturation),
+    var(--base-lightness),
+    calc(var(--alpha-multiplier) * var(--base-alpha))
+  );
 }
 
 #c_and_i .table a:nth-of-type(1) {--alpha-multiplier: 1;}
