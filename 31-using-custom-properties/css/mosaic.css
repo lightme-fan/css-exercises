@@ -1,136 +1,88 @@
 :root {
-  --hue: 36deg;
-  --saturation: 100%;
-  --lightness: 50%;
-  --alpha: 0.1;
+  --base-hue: 36deg;
+  --base-alpha: 0.1;
   /*--background-color: hsla(var(--hue), var(--saturation), var(--lightness), var(--alpha));*/
 }
 
-#c_and_i .row:nth-of-type(1) {
-  background-color: hsla(var(--hue), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a {
+  background-color: hsla(var(--hue), 100%, 50%, var(--alpha));
 }
 
-#c_and_i .row:nth-of-type(2) {
-  background-color: hsla(calc(var(--hue) * 2), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(1) {
+  --alpha:var(--base-alpha);
+}
+#c_and_i .table a:nth-of-type(2) {
+  --alpha:calc(var(--base-alpha) * 2);
 }
 
-#c_and_i .row:nth-of-type(3) {
-  background-color: hsla(calc(var(--hue) * 3), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(3) {
+  --alpha: calc(var(--base-alpha) * 3);
 }
 
-#c_and_i .row:nth-of-type(4) {
-  background-color: hsla(calc(var(--hue) * 4), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(4) {
+  --alpha: calc(var(--base-alpha) * 4);
 }
 
-#c_and_i .row:nth-of-type(5) {
-  background-color: hsla(calc(var(--hue) * 5), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(5) {
+  --alpha: calc(var(--base-alpha) * 5);
 }
 
-#c_and_i .row:nth-of-type(6) {
-  background-color: hsla(calc(var(--hue) * 6), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(6) {
+  --alpha: calc(var(--base-alpha) * 6);
 }
 
-#c_and_i .row:nth-of-type(7) {
-  background-color: hsla(calc(var(--hue) * 7), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(7) {
+  --alpha: calc(var(--base-alpha) * 7);
 }
 
-#c_and_i .row:nth-of-type(8) {
-  background-color: hsla(calc(var(--hue) * 8), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(8) {
+  --alpha: calc(var(--base-alpha) * 8);
 }
 
-#c_and_i .row:nth-of-type(9) {
-  background-color: hsla(calc(var(--hue) * 9), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(9) {
+  --alpha: calc(var(--base-alpha) * 9);
 }
 
-#c_and_i .row:nth-of-type(10) {
-  background-color: hsla(calc(var(--hue) * 10), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table a:nth-of-type(10) {
+  --alpha: calc(var(--base-alpha) * 10)
 }
 
-#c_and_i a:nth-of-type(1) {
-  background-color: hsla(var(--hue), var(--saturation), var(--lightness), var(--alpha));
+#c_and_i .table .row:nth-of-type(1) {
+  --hue: var(--base-hue);
 }
 
-#c_and_i a:nth-of-type(2) {
-  background-color: hsla(calc(var(--hue) * 2), var(--saturation), var(--lightness), calc(var(--alpha) * 2));
+#c_and_i .table .row:nth-of-type(2) {
+  --hue: calc(var(--base-hue) * 2)
 }
 
-#c_and_i a:nth-of-type(3) {
-  background-color: hsla(calc(var(--hue) * 3), var(--saturation), var(--lightness), calc(var(--alpha) * 3));
+#c_and_i .table .row:nth-of-type(3) {
+  --hue: calc(var(--base-hue) * 3);
 }
 
-#c_and_i a:nth-of-type(4) {
-  background-color: hsla(calc(var(--hue) * 4), var(--saturation), var(--lightness), calc(var(--alpha) * 4));
+#c_and_i .table .row:nth-of-type(4) {
+  --hue: calc(var(--base-hue) * 4);
 }
 
-#c_and_i a:nth-of-type(5) {
-  background-color: hsla(calc(var(--hue) * 5), var(--saturation), var(--lightness), calc(var(--alpha) * 5));
+#c_and_i .table .row:nth-of-type(5) {
+  --hue: calc(var(--base-hue) * 5);
 }
 
-#c_and_i a:nth-of-type(6) {
-  background-color: hsla(calc(var(--hue) * 6), var(--saturation), var(--lightness), calc(var(--alpha) * 6));
+#c_and_i .table .row:nth-of-type(6) {
+  --hue: calc(var(--base-hue) * 6);
 }
 
-#c_and_i a:nth-of-type(7) {
-  background-color: hsla(calc(var(--hue) * 7), var(--saturation), var(--lightness), calc(var(--alpha) * 7));
+#c_and_i .table .row:nth-of-type(7) {
+  --hue: calc(var(--base-hue) * 7);
 }
 
-#c_and_i a:nth-of-type(8) {
-  background-color: hsla(calc(var(--hue) * 8), var(--saturation), var(--lightness), calc(var(--alpha) * 8));
+#c_and_i .table .row:nth-of-type(8) {
+  --hue: calc(var(--base-hue) * 8);
 }
 
-#c_and_i a:nth-of-type(9) {
-  background-color: hsla(calc(var(--hue) * 9), var(--saturation), var(--lightness), calc(var(--alpha) * 9));
+#c_and_i .table .row:nth-of-type(9) {
+  --hue: calc(var(--base-hue) * 9);
 }
 
-#c_and_i a:nth-of-type(10) {
-  background-color: hsla(calc(var(--hue) * 10), var(--saturation), var(--lightness), calc( var(--alpha) * 10));
+#c_and_i .table .row:nth-of-type(10) {
+  --hue: calc(var(--base-hue) * 10);
 }
-
-/*
-{
-   background-color: hsla(calc(hsla((var()--hue), var(--saturation), var(--lightness), (var(--alpha));
-  }
-
-#c_and_i .row a + a {
-   background-color: hsla(hsla(calc()var(--hue) * 2), var(--saturation), var(--lightness), calc(var(--alpha) * 2));
-  }
-
-#c_and_i .row a + a + a {
-   background-color: hsla(calc(var(--hue) * 3), var(--saturation), var(--lightness), calc(var(--alpha) * 3));
-  }
-
-#c_and_i .row a + a + a + a {
-   background-color: hsla(calc(var(--hue) * 4), var(--saturation), var(--lightness), calc(var(--alpha) * 4));
-  }
-
-#c_and_i .row a + a + a + a + a {
-   background-color: hsla(calc(var(--hue) * 5), var(--saturation), var(--lightness), calc(var(--alpha) * 5));
-  }
-
-#c_and_i .row a + a + a + a + a + a + a {
-    background-color: hsla(calc(var(--hue) * 6), var(--saturation), var(--lightness), calc(var(--alpha) * 6));
-   }
-
-#c_and_i .row a + a + a + a + a + a + a {
-  background-color: hsla(calc(var(--hue) * 7), var(--saturation), var(--lightness), calc(var(--alpha) * 7));
-}
-
-#c_and_i .row a + a + a + a + a + a + a +a {
-  background-color: hsla(calc(var(--hue) * 8), var(--saturation), var(--lightness), calc(var(--alpha) * 8));
-}
-
-#c_and_i .row a + a + a + a + a + a + a + a + a {
-  background-color: hsla(calc(var(--hue) * 9), var(--saturation), var(--lightness), calc(var(--alpha) * 9));
-}
-
-#c_and_i .row a + a + a + a + a + a + a + a + a + a {
-  background-color: hsla(calc(var(--hue) * 10), var(--saturation), var(--lightness), calc(var(--alpha) * 10));
- }
-*/
-/*
-  … etc …
-
-  This would get crazy if I had to write
-  o
-  ut each and every anchor within each row, setting the unique `hsla()` per anchor.
-*/
