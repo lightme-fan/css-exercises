@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Calc function</title>
+  </head>
+  <body>
+    <header>
+      <h1> Calc function</h1>
+    </header>
+    <section>
+     <h2>Values of calc()</h2>
+     <p>It can support these:</p>
+     <ul>
+       <li>Number</li>
+       <li>Percentage</li>
+       <li>Frequency</li>
+       <li>Length</li>
+       <li>Time</li>
+       <li>Integer</li>
+       <li>Angle</li>
+     </ul>
+    </section>
+
+    <section>
+      <h2>The order of operations in this function</h2>
+      <p>
+        Addition or substraction must be inside of brakets<b>(...)</b> and need spaces aroud them.
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        <q>calc((2 + 3) * 3)</q>
+      </div>
+    </section>
+
+    <secti<on>
+      <h2>Type of units</h2>
+      <p>
+        It is possible to covert a unit to an another unit
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        <q>calc(50% - 1rem)</q>
+      </div>
+    </section>
+
+    <section>
+      <h2>Spaces around <q>plus</q> and <q>minus</q></h2>
+      <p>
+        We have to make the use of spaces around these operations, because the calculation you do really depends on them.
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        <b>Wrong</b><br> calc(50px -2rem)<br>
+        <b>Correct</b><br> calc(50px - 2rem)
+      </div>
+    </section>
+
+    <section>
+      <h2>Convertion of a value into negative</h2>
+      <p>
+        It is possible to change a value into a negative value
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        calc(-100px + 3rem)<br>
+        Or<br>
+        calc(100px * -3rem)
+      </div>
+    </section>
+
+    <section>
+      <h2>Calc funciton and color</h2>
+      <p>
+        Calc can be used with colour, but it shoudn't be greater than <b>225</b>.
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        rgb(cal(var(--red) / 3), calc(var(--green) -50), var(--blue));
+      </div>
+    </section>
+  </body>
+</html>
