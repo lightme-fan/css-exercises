@@ -1,0 +1,27 @@
+:root {
+  --red: 225;
+  --green: 36;
+  --blue: 120;
+  --alpha: 1;
+}
+
+
+body {
+  position: relative;
+  color: royalblue;
+  font-size: 3rem;
+  padding: 1rem;
+  border: 1px solid blue;
+  text-align: center;
+  height: 4rem;
+}
+
+div {
+  background-color:
+  rgba(
+    calc(var(--red) - var(--blue)),
+    calc(var(--green) * 3),
+    calc(var(--blue) + var(--green)),
+    calc(var(--alpha) / 5)
+  );
+}
