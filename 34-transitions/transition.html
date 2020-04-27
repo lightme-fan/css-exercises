@@ -3,51 +3,177 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Transition</title>
-    <style>
-      body {
-        position: relative;
-      }
-
-      button {
-        background-color: cyan;
-      }
-
-      div {
-        position: absolute;
-      }
-
-      .ball {
-        width: 100px;
-        height: 100px;
-        background-color: rgb(0, 174, 255);
-        border-radius: 100px;
-        top: 15rem;
-        left: 0;
-        transition: all 2s;
-      }
-
-      .post {
-        width: 500px;
-        height: 300px;
-        border-top: 1rem solid black;
-        border-left: 1rem solid black;
-        border-right: 1rem solid black;
-        top: 10rem;
-        left: 60%;
-      }
-
-      .ball:hoover {
-        transform: scale(1.5);
-        background-color: darkblue;
-        text-shadow: orange;
-      }
-
-    </style>
+    <title>Transitions</title>
   </head>
   <body>
-    <button>Start</button>
-    <div class="ball"></div>
-    <div class="post"></div>
+    <header>
+      <h1>Transitions</h1>
+    </header>
+    <section>
+      <h2>Initial state</h2>
+      <p>
+        To start to make a use of transitions, you must set the element into hover.
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        <i>a:hover {...}</i>
+      </div>
+    </section>
+
+    <section>
+      <h2>Target state</h2>
+      <p>
+        It really depends on what number you do set for the scale of trensition.
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        <i>a:hover {<br>
+          transition: scale(0.5);<br>
+          }</i>
+      </div>
+    </section>
+
+    <section>
+      <h2>Transition property</h2>
+      <p>
+        There are several transition properties
+      </p>
+      <div>
+        <ul>
+          <li>
+            Transition-duration
+          </li>
+          <li>
+            Transition-property
+          </li>
+          <li>
+            Transition-delay
+          </li>
+          <li>
+            Transition-timing-fuction
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Difference between these properties
+      </h2>
+      <div>
+        <ul>
+          <li>
+            <b>Transition-duration</b>:
+            sets the length of time a trnsition animation should take to complete.
+          </li>
+          <li>
+            <b>Transition-delay</b>:
+            is the start of animation.
+          </li>
+          <li>
+            <b>
+              Transition-timing-fuction
+            </b>:
+            is used to specify the speed of the transition.
+          </li>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Animatable css properties by using transtion
+      </h2>
+      <div>
+        <ul>
+        <li>-moz-outline-radius</li>
+        <li>
+          -moz-outline-radius-bottomleft
+        </li>
+        <li>
+          -moz-outline-radius-bottomright
+        </li>
+        <li>
+          -moz-outline-radius-topleft
+        </li>
+        <li>
+          -moz-outline-radius-topright
+        </li>
+        <li>
+          -webkit-line-clamp
+        </li>
+        <li>
+          -webkit-text-fill-color
+        </li>
+        <li>
+          -webkit-text-stroke
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Multiple transition</h2>
+      <p>
+        I think it is possible to select more than property to transition at a time by using comma.
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        <i>a:hover {<br>
+          transition-property: background, border-radius, color;<br>
+          transition-duration: 0.4s, 0.8s, 0.5s;<br>
+          }</i>
+      </div>
+    </section>
+
+    <section>
+      <h2>Transition state</h2>
+      <p>
+        We have to make use of <b>:hover.</b>
+      </p>
+      <div>
+        <i>a:hover {<br>
+          transition-property: background, border-radius, color;<br>
+          transition-duration: 0.4s, 0.8s, 0.5s;<br>
+          }</i>
+      </div>
+    </section>
+
+    <section>
+      <h2>The need of transition</h2>
+      <p>
+        At some point, transition is useful whe we want to decorate links or button.
+      </p>
+    </section>
+
+    <section>
+      <h2>The trouble of transition</h2>
+      <p>
+        Transition could create a problem because the servers expect for being fast.
+      </p>
+    </section>
+
+    <section>
+      <h2>
+        The auto keyword being one of the end states
+      </h2>
+      <p>
+
+      </p>
+      <div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        To stagger transition
+      </h2>
+      <p>
+        Use transition delay when you want to stagger transition.
+      </p>
+      <div>
+
+      </div>
+    </section>
   </body>
 </html>

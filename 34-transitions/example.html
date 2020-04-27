@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Transition</title>
+    <style>
+      body {
+        position: relative;
+      }
+
+      button {
+        background-color: cyan;
+      }
+
+      div {
+        position: absolute;
+      }
+
+      .ball {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(0, 174, 255);
+        border-radius: 100px;
+        top: 15rem;
+        left: 0;
+        transition: all 2s;
+      }
+
+      .post {
+        width: 500px;
+        height: 300px;
+        border-top: 1rem solid black;
+        border-left: 1rem solid black;
+        border-right: 1rem solid black;
+        top: 10rem;
+        left: 60%;
+      }
+
+      .ball:hoover {
+        transform: scale(1.5);
+        background-color: darkblue;
+        text-shadow: orange;
+      }
+
+    </style>
+  </head>
+  <body>
+    <button>Start</button>
+    <div class="ball"></div>
+    <div class="post"></div>
+  </body>
+</html>
