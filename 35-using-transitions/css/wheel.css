@@ -19,17 +19,31 @@
   When the user hovers over the scene,
   rotate the wheel and move it off canvas to the right.
 */
+
+/*:root {
+  --spoke-arc: 45deg;
+  --spoke-width: 6px;
+  --tyre-thickness: 10px;
+  --wheel-diameter: 100;
+  --max-scene-width: 1000;
+  --diameter: calc(var(--wheel-diameter) * 1px);
+  --scene-width: calc(var(--max-scene-width) * 1px);
+  --wheel-raduis: calc(var(--wheel-diameter) / 2);
+  --pi: 22/7;
+  --circus: calc(var(--wheel-diameter) * var(pi));
+  --rotating-legth: calc(va(--max-scene-width) / var(--circus));
+}*/
+
 .scene:hover .wheel {
   left: 100%;
   transition-delay: 0s;
-  transition-duration: 5s;
-  transition-timing-function: ease-in-out;
-  transform: rotate(3turn);
-
+  transition-duration: 7s;
+  transition-timing-function: ease-in;
+  transform: rotate(1000deg);
 }
 
 .scene .wheel {
-  transition: ease-in-out 5s;
+  transition: ease-out 7s;
 }
 
 /* Wheel setup */
@@ -43,6 +57,7 @@
   height: var(--wheel-diameter);
   width: var(--wheel-diameter);
   position: relative;
+  transition-property: transform;
 }
 
 .spoke {

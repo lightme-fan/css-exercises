@@ -53,30 +53,30 @@
 
 .pendulum .metal-ball:nth-of-type(1) {
   transform: rotate(20deg);
-  transition-duration: 2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 2s;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-fuction);
+  transition-delay: var(--duration);
   transition-property: transform;
 }
 .pendulum:hover .metal-ball:nth-of-type(1) {
   transform: rotate(0deg);
-  transition-duration: 2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-fuction);
+  transition-delay: calc(var(--duration) * 0);
   transition-property: transform;
 }
 
 .pendulum .metal-ball:nth-of-type(3) {
   transform: rotate(0deg);
-  transition-duration: 2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-fuction);
+  transition-delay: calc(var(--duration) * 0);
   transition-property: transform;
 }
 .pendulum:hover .metal-ball:nth-of-type(3) {
   transform: rotate(-20deg);
-  transition-duration: 2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 2s;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-fuction);
+  transition-delay: var(--duration);
   transition-property: transform;
 }
