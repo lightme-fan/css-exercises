@@ -46,16 +46,37 @@
   background-color: #ccc;
 }
 
+:root {
+  --duration: 2s;
+  --timing-fuction: ease-in-out;
+}
+
 .pendulum .metal-ball:nth-of-type(1) {
   transform: rotate(20deg);
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 2s;
+  transition-property: transform;
 }
 .pendulum:hover .metal-ball:nth-of-type(1) {
   transform: rotate(0deg);
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: transform;
 }
 
 .pendulum .metal-ball:nth-of-type(3) {
   transform: rotate(0deg);
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: transform;
 }
 .pendulum:hover .metal-ball:nth-of-type(3) {
   transform: rotate(-20deg);
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 2s;
+  transition-property: transform;
 }

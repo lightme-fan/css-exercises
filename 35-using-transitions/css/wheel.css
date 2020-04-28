@@ -21,6 +21,15 @@
 */
 .scene:hover .wheel {
   left: 100%;
+  transition-delay: 0s;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+  transform: rotate(3turn);
+
+}
+
+.scene .wheel {
+  transition: ease-in-out 5s;
 }
 
 /* Wheel setup */
