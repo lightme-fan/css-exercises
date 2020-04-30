@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS transform</title>
+  </head>
+  <body>
+    <header>
+      <h1>CSS transform</h1>
+    </header>
+    <section>
+      <h2>Function of transform</h2>
+      <p>
+        There are several functions we can use in transform
+      </p>
+      <div>
+        <ul>
+          <li>Scale()</li>
+          <li>Translate()</li>
+          <li>Rotate()</li>
+          <li>Matrix()</li>
+          <li>Skew()</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Separated function of transform</h2>
+      <p>
+         You can include more than one transform on an element. To include more than one transform, simply separate them the tranform functions with spaces.
+      </p>
+    </section>
+
+    <section>
+      <h2>Moving axis of transform from its default position</h2>
+      <p>
+        In order to move the central pin of transform, we should use <b>tranform-origin: top left;</b>
+      </p>
+    </section>
+
+    <section>
+      <h2>Transform: translate</h2>
+      <p>
+        <b>Position</b> sometimes requires negative margin. Additionally, we have to use <b>Top</b> and <b>Left</b> whereas <strong>transform: translate()</strong> doesn't.
+      </p>
+    </section>
+
+    <section>
+      <h2>An element translated</h2>
+      <p>
+        The layout transform is similar to <b>relative positioned</b>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Problem of overriding a transform</h2>
+      <p>
+        When we write more than transform properties in one specific selector, the first property you set doesn't work.
+      </p>
+    </section>
+
+    <section>
+      <h2>Transform 3D</h2>
+      <p>
+        When we want to use 3D, we have to use <b>perspective</b>
+      </p>
+      <div>
+        <u>Eg</u>:<br>
+        body {<br>
+          perspective: 800px;<br>
+        }<br>
+        div {<br>
+          transform: rotate3d(1, 1, 1, 45deg);<br>
+        }
+      </div>
+    </section>
+
+    <section>
+      <h2>Transform with box model</h2>
+      <p>
+        If we want to modify a box model by using transform, we should use <b>transform-box</b>.
+      </p>
+    </section>
+  </body>
+</html>
