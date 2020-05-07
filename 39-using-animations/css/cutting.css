@@ -118,7 +118,7 @@
   transform: rotate(-15deg);
   animation-name: scissorTop;
   animation-duration: 1s;
-  animation-iteration-count: 8;
+  animation-iteration-count: 7;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -151,7 +151,7 @@
   z-index:2;
   animation-name: scissorBottom;
   animation-duration: 1s;
-  animation-iteration-count: 8;
+  animation-iteration-count: 7;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -185,7 +185,7 @@
   transform: translateZ(100px) rotateX(15deg);
   animation-name: paperCut;
   animation-duration: 1s;
-  animation-delay: 7s;
+  animation-delay: 6s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
@@ -197,9 +197,9 @@
   transform: translateZ(100px) rotateX(15deg);
   border-block-start: 1px dashed #ccc;
   z-index: calc(var(--middle-z-index) + 1);
-  animation-name: paperCut;
+  animation-name: paperUncut;
   animation-duration: 1s;
-  animation-delay: 7s;
+  animation-delay: 6s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
@@ -216,11 +216,6 @@
 
 @keyframes cutting {
   0% {left: 0;}
-  10% {left: 10vw;}
-  20% {left: 20vw;}
-  40% {left: 40vw;}
-  60% {left: 60vw;}
-  80% {left: 80vw;}
   100% {left: 90vw;}
 }
 
@@ -236,6 +231,9 @@
 }
 
 @keyframes paperCut {
-  100% {top: 50%;}
+  100% {top: -5%;}
 }
 
+@keyframes paperUncut {
+  100% {top: 40%;}
+}
