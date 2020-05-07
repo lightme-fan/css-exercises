@@ -26,18 +26,18 @@
   animation-name: bounce1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation-timing-function: Fast Out, Linear In;
   animation-direction: alternate;
   animation-fill-mode: both;
 }
 
 @keyframes bounce1 {
-  20% {transform: scaleX(0.9) scaleY(.8); top: 85%;}
-  40% {transform: scaleX(0.9) scaleY(.8); top: 25%; left: 25%;}
-  60% {transform: scaleX(0.9) scaleY(.8); top: 85%;}
-  80% {transform: scaleX(0.9) scaleY(.8); top: 50%; left: 50%;}
-  90% {transform: scaleX(0.9) scaleY(.8); top: 85%}
-  100%{transform: scaleX(0.9) scaleY(.8); top: 65%; left: 65%;}
+  20% {transform: scale(0.8); top: 85%;}
+  40% {top: 25%; left: 25%;}
+  60% {transform: scale(0.8); top: 85%;}
+  80% {top: 50%; left: 50%;}
+  90% {transform: scale(0.8); top: 85%}
+  100%{top: 65%; left: 65%;}
 }
 
 /* @keyframes bounce2 {
