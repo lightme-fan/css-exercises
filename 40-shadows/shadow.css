@@ -1,0 +1,27 @@
+h1 {
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+body {
+  width: 600px;
+  border: 2px solid darkgrey;
+  position: absolute;
+  top:6%;
+  left: 50%;
+  margin-inline-start: -15rem;
+  text-align: center;
+  font-size: medium;
+  box-shadow:
+              20px 20px 50px 0 rgba(0, 0, 0, 0.5),
+              inset 20px 20px 50px 0 rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  color: darkblue;
+  text-shadow: 0 0 10px lightblue;
+}
