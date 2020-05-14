@@ -59,7 +59,7 @@
           Our users have to download 160KB in the example above.
         </li>
         <li>
-          If we chose to offer WOFF2 as well as WOFF, we need to have need to specify both: <br>
+          16 files are needed if we chose to offer WOFF2 as well as WOFF, we need to have need to specify both: <br>
           <u>Eg</u>:<br>
           <code>
             @font-face {<br>
@@ -76,14 +76,15 @@
           when we assign <b>fallback fonts</b>, we had better be aware that <br>if it doesn’t have fallback font available, it will keep going down to other fonts.
         </li>
         <li>
-          <b>src</b> property can help the browser decide on which strategy to use in order to download something.
+          <ul>
+            <li>
+              Render<br> fallback<br> font<br>
+            </li>
+            <li>Blank until downloaded</li>
+            <li>Font-display</li>
+          </ul>
         </li>
       </ol>
     </nav>
   </body>
 </html>
-
-
-
-
-
