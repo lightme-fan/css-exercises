@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pseudo-class selectors</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pseudo-class selectors</h1>
+    </header>
+    <section>
+      <h2>:focus</h2>
+      <p>
+        This class is used to add special style to an element while the element has focus.
+      </p>
+    </section>
+
+    <section>
+      <h2>:focus-within</h2>
+      <p>
+        This pseudo-class represents an element that is itself matched by the :focus or has a descendant that is matched by :focus.
+      </p>
+    </section>
+
+    <section>
+      <h2>:visited</h2>
+      <p>
+        :visted represents links that the user has already visited
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          a:visited {<br>
+            color: green;<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section>
+      <h2>:active</h2>
+      <p>
+        This is used to represent an element (such as a button) that is being activated by the user.
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          a:active {<br>
+            color: red;<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section>
+      <h2>:target</h2>
+      <p>
+        This represents a unique element with an id matching the URL's fragment.
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          a:target {<br>
+            border: 1px solid grey;<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section>
+      <h2>:disabled</h2>
+      <p>
+        This pseudo-class is used to represent any disabled element.
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          input:disabled {<br>
+          background: #ccc;<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section>
+      <h2>:empty</h2>
+      <p>
+        :empty is used to show any element that has no children.
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          div:empty {<br>
+          background: lime;<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section>
+      <h2>:not()</h2>
+      <p>
+        :not shows elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class.
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          :not(p) {<br>
+          color: blue;<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section>
+      <h2>:matches()</h2>
+      <p>
+        :matches() is a new CSS pseudo-class that allows to save time by grouping selectors together:
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          :matches(article, div.section, section) h2 {<br>
+            font-size: 3em;<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section>
+      <h2>A pseudo-element</h2>
+      <h3>::first-letter</h3>
+      <p>
+        ::first-letter is a pseudo-element which selects the first letter in the first line of a block-level element (such as a paragraph <p> ).
+      </p>
+      <div>
+        <u>Example</u>:<br>
+        <code>
+          p::first-letter {<br>
+            font-family: "Gentium Book Basic", serif;<br>
+            font-weight: bold;<br>
+            color: grey;<br>
+        }
+        </code>
+      </div>
+    </section>
+
+  </body>
+</html>
