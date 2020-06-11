@@ -1,8 +1,18 @@
-section:nth-of-type(1) .example {
-  padding: 0;
-  border: solid 1rem;
+:root {
+  --padding: 1rem;
+  --margin: 1rem;
+  --border: solid 1rem;
 }
 
-section:nth-of-type(1) > footer {
-  margin-block-end: 0;
+section:nth-of-type(1) .example {
+  padding: calc(var(--padding) * 0);
+  border: var(--border);
+}
+
+.example > article > * {
+  margin-block-end: var(--margin);
+}
+
+.example > article > footer{
+  margin-block-end: calc(var(--margin) * 0);
 }
