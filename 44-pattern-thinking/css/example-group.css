@@ -13,18 +13,27 @@ section:nth-of-type(1) .example:nth-of-type(1) > article > * {
   margin-block-end: var(--margin);
 }
 
-section:nth-of-type(1) .example:nth-of-type(1) > article > footer{
+section:nth-of-type(1) .example:nth-of-type(1) > article > footer {
   margin-block-end: calc(var(--margin) * 0);
 }
 
 section:nth-of-type(1) .example_group .example:nth-of-type(2) > article {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  row-gap: 1rem;
+  row-gap: var(--padding);
 }
 
 section:nth-of-type(1) .example_group .example:nth-of-type(3) > article {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  row-gap: 1rem;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+
+}
+
+section:nth-of-type(1) .example:nth-of-type(3) > article > .content {
+  margin-block-start: var(--margin);
+}
+
+section:nth-of-type(1) .example:nth-of-type(3) > article > footer {
+  margin-block-start: 1rem;
 }
