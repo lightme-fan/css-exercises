@@ -1,15 +1,20 @@
 [data-example="4"] {
   display: flex;
+  min-height: 10rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+[data-example="4"] > div {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 [data-example="5"] > div {
-  transform: translateY(50%);
+
 }
 
 [data-example="6"] {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
