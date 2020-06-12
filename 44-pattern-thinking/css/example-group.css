@@ -45,7 +45,7 @@
 }
 
 [data-example="3"] > article > * {
-  /* margin-block-end: var(--margin); */
+  margin-block-end: var(--margin);
   display: flex;
   justify-content: space-between;
   align-items: center;
