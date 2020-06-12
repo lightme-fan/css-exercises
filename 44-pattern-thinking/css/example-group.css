@@ -13,12 +13,24 @@
   border: var(--border);
 }
 
-[data-example="1"] > article > * {
+[data-example="1"] > article > header {
   margin-block-end: var(--margin);
 }
 
-[data-example="1"] > article > footer {
-  margin-block-end: calc(var(--margin) * 0);
+[data-example="1"] > article > header h2 {
+  display: inline-block;
+}
+
+[data-example="1"] > article > div {
+  margin-block-end: var(--margin);
+}
+
+[data-example="1"] > article > div p {
+  display: inline-block;
+}
+
+[data-example="1"] > article > footer p {
+  display: inline-block;
 }
 
 [data-example="2"] {
