@@ -12,7 +12,9 @@
 }
 
 [data-example="5"] > div {
-
+  transform: translateY(36px);
+  display: flex;
+  justify-content: center;
 }
 
 [data-example="6"] {
