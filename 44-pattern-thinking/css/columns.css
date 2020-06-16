@@ -42,14 +42,19 @@
 
 /* 8 */
 [data-example="8"] {
-  display: grid;
-  justify-content: stretch;
+  display: table;
+  /* table-layout: fixed; */
+  height: 100%;
+
+  /* display: grid;
+  justify-content: stretch; */
 }
 
 [data-example="8"] > .columns {
-  display: flex;
-  justify-content: stretch;
-  flex-grow: 1;
+  columns: 2;
+  /* display: flex;
+  justify-content: space-around;
+  flex-grow: 1; */
 
 }
 
@@ -62,6 +67,12 @@
 }
 
 /* 9 */
+[data-example="9"] > .columns {
+  /* columns: 2;
+  justify-content: stretch;
+  height: 100%; */
+}
+
 [data-example="9"] {
 
 }

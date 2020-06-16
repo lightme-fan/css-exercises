@@ -16,15 +16,40 @@
 
 /* 10 */
 [data-example="10"] {
-
+  display: grid;
 }
 
+[data-example="10"] > button {
+  background-image: url("../images/icon_heart.svg");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 2rem;
+}
+
+[data-example="10"] > button > span {
+
+}
 /* 11 */
 [data-example="11"] {
 
 }
 
+[data-example="11"] > button > span::after {
+  content: "";
+  background-image: url("../images/icon_heart.svg");
+}
+
 /* 12 */
 [data-example="12"] {
+  display: flex;
+}
 
+[data-example="12"] > button > span {
+  background-image: url("../images/icon_heart.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 1rem;
+  position: absolute;
 }
