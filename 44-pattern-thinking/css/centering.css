@@ -17,6 +17,8 @@
   justify-content: center;
 }
 
-[data-example="6"] {
-
+[data-example="6"] > div {
+  display: grid;
+  justify-items: center;
+  margin-block-start: 36px;
 }
